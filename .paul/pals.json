@@ -1,0 +1,36 @@
+{
+  "modules": {
+    "carl": { "enabled": false, "description": "Session boundary manager (Pi extension)" },
+    "todd": { "enabled": false, "description": "Test-driven development enforcement" },
+    "walt": { "enabled": false, "description": "Quality gating & validation" },
+    "dean": { "enabled": false, "description": "Dependency evaluation & audit notifier" },
+    "iris": { "enabled": false, "description": "Intelligent review & inspection system" },
+    "skip": { "enabled": false, "description": "Smart knowledge & information persistence" },
+    "dave": { "enabled": false, "description": "Deploy automation & verification engine" },
+    "ruby": { "enabled": false, "description": "Refactor utility & better-code yielder" }
+  },
+  "git": {
+    "workflow": "github-flow",
+    "remote": "https://github.com/coctostan/gh-flow-test.git",
+    "base_branch": "main",
+    "merge_method": "squash",
+    "worktree_isolation": false,
+    "auto_push": true,
+    "auto_pr": true,
+    "ci_checks": false,
+    "delete_branch_on_merge": true,
+    "update_branch_when_behind": true,
+    "require_pr_before_next_phase": true,
+    "require_reviews": false
+  },
+  "integrations": {
+    "sonarqube": { "enabled": false, "project_key": "" }
+  },
+  "planning": {
+    "default_collaboration": "low"
+  },
+  "preferences": {
+    "auto_commit": false,
+    "verbose_output": true
+  }
+}
